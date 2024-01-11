@@ -1,0 +1,26 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "prepublishOnly": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "css-loader": "^6.9.0",
+    "mini-css-extract-plugin": "^2.7.7",
+    "source-map-loader": "^4.0.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
